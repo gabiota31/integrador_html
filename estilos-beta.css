@@ -1,0 +1,136 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    background: url(img/header.jpg);
+    background-color: blue;
+    height: 1000px;
+    width: auto;
+    size: auto;
+    
+}
+
+/* header .head_arriba {
+    display: flex;
+    
+} */
+
+#nav_header {
+    text-align: right;
+    /* margin-right: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    left: 100px;
+    /* bottom: 300px; */
+}
+
+.div_header {
+    font-weight: bolder;
+    position: relative;
+    color: white;
+    font-size: 30pt;
+    position: relative;
+    top: 600px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+    left: 100px;
+    
+}
+
+main {
+    height: auto;
+    margin: 30px 140px;
+    text-align: center;
+    /* box-sizing: border-box; */
+}
+
+.titulos {
+    text-align: center;
+    font-size: 28pt;
+}
+
+.renglon1, .renglon2, .renglon3 { 
+    width: 300px;
+    margin-left: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+div, h2 {
+    font-weight: 900;
+}
+
+.segunda_seccion{
+    display: flex;
+    flex-direction: row;
+}
+
+.caja_dptos {
+    /* width: auto; */
+    /* padding: 5px;  */
+    text-align: left;
+    font-weight: lighter;
+    background-color: rgb(246, 242, 242);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(199, 198, 198);
+    display: flex;
+    flex-direction: column;
+    size: 30%;
+}
+
+/* .casa_venta {
+    width: 30%;
+    height: 30%;
+}  */
+
+.precio {
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(122, 177, 12);
+}
+
+.boton_naranja {
+    /* position: relative;
+    right: 1px; */
+    color: rgb(255, 255, 255);
+    background-color: rgb(243, 175, 29);
+    /* padding: 10px; */
+}
+
+#boton_verde {
+    color: rgb(250, 250, 250);
+    background-color: rgb(104, 211, 62);
+    padding: 10px;
+    right: 100px;
+    width: 120px;
+}
+
+[type="submit"] {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+footer {
+    background-color: rgb(54, 67, 80);
+    height: auto;
+}
+
+#nav_footer, .a_nav {
+    color: whitesmoke;
+    display: inline;
+    box-sizing: border-box;
+    margin-left: 10px;
+    position: relative;
+    bottom: 0em;
+}
+
+#firma_footer {
+    text-align: right;
+    margin-right: 50px;
+}

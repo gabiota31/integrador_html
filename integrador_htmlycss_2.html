@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Integrador HTML y CSS</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <div class="encabezado">
+            <img src="img/logo.svg" alt="logo de la empresa" id="logo-empresa">
+
+            <div>
+            <a href="" class="nav">Nosostros</a>
+            <a href="" class="nav">Anuncios</a>
+            <a href="" class="nav">Blog</a>
+            <a href="" class="nav">Contacto</a>
+            </div>
+        </div>
+
+        <div class="pie-header">
+            <p>Venta de Casa y Departamentos</p>
+            <p>Exclusivos de Lujo</p>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- cajas presentación y beneficios -->
+
+        <div class="caja-madre">
+            <div>
+                <p class="titulos" id="titulo-mas-sobre-nos">Más sobre nosostros</p> 
+            </div>
+            
+            <section class="main-arriba">
+                <div>
+                    <img src="img/icono1.svg" alt="icono de un candado de seguridad">
+                    <p class="subtitulos">SEGURIDAD</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolor. Nesciunt, facere officiis, sapiente quis magni quas vel</p>
+                </div>
+                <div>
+                    <img src="img/icono2.svg" alt="icono de dinero">
+                    <p class="subtitulos">EL MEJOR PRECIO</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolor. Nesciunt, facere officiis, sapiente quis magni quas vel</p>
+                </div>
+                <div>
+                    <img src="img/icono3.svg" alt="icono de un reloj">
+                    <p class="subtitulos">A TIEMPO</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolor. Nesciunt, facere officiis, sapiente quis magni quas vel</p>
+                </div>
+            </section>
+        </div>
+
+
+        <!-- cajas de los departamentos -->
+        <div class="caja-madre">
+
+            <div>
+                <p class="titulos">Casas y Depas en Venta</p>
+
+            </div>
+
+            <section class="main-abajo">
+
+                <div class="caja-dpto">
+                    <img src="img/anuncio1.jpg" alt="casa junto al lago" class="foto-casa-venta">
+                    <p class="titulo-dpto">Casa de Lujo en el Lago</p> 
+                    <div class="texto-caja-dpto">         
+                        <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
+                        <p class="precio">$3,000,000</p>
+                        <div class="iconos-dpto">
+                            <img src="img/icono_wc.svg" alt="icono-baño">
+                            <span>3</span>
+                            <img src="img/icono_estacionamiento.svg" alt="icono-estacionamiento">
+                            <span>3</span>
+                            <img src="img/icono_dormitorio.svg" alt="icono-dormitorios">
+                            <span>2</span>
+                        </div>
+                        <input type="submit" value="VER PROPIEDAD" class="boton-naranja">
+                    </div>
+                </div>
+
+                <div class="caja-dpto">
+                    <img src="img/anuncio2.jpg" alt="foto casa buenos terminados" class="foto-casa-venta">
+                    <p class="titulo-dpto">Casa con terminados de Lujo</p>
+                    <div class="texto-caja-dpto">
+                        <p>Casa con diseño moderno, así como tecnología inteligente y amueblada</p>
+                        <p class="precio">$2,000,000</p>
+                        <div class="iconos-dpto">
+                            <img src="img/icono_wc.svg" alt="icono-baño">
+                            <span>3</span>
+                            <img src="img/icono_estacionamiento.svg" alt="icono-estacionamiento">
+                            <span>3</span>
+                            <img src="img/icono_dormitorio.svg" alt="icono-dormitorios">
+                            <span>2</span>
+                        </div>
+                        <input type="submit" value="VER PROPIEDAD" class="boton-naranja">
+                    </div>
+                </div>
+
+                <div class="caja-dpto">
+                    <img src="img/anuncio3.jpg" alt="foto casa con pileta" class="foto-casa-venta">
+                    <p class="titulo-dpto">Casa con Pileta</p>
+                    <div class="texto-caja-dpto">
+                        <p>Casa con Pileta y acabados de lujo en la ciudad, excelente oportunidad</p>
+                        <p class="precio">$3,000,000</p>
+                        <div class="iconos-dpto">
+                            <img src="img/icono_wc.svg" alt="icono-baño">
+                            <span>3</span>
+                            <img src="img/icono_estacionamiento.svg" alt="icono-estacionamiento">
+                            <span>3</span>
+                            <img src="img/icono_dormitorio.svg" alt="icono-dormitorios">
+                            <span>3</span>
+                        </div>
+                        <input type="submit" value="VER PROPIEDAD" class="boton-naranja">
+                    </div>
+                </div>
+            </section>
+            
+            <div id="caja-boton-verde">
+                <!-- botón verde -->
+                <input type="submit" value="VER TODAS" id="boton-verde"> 
+            </div>
+            
+        </div>
+
+        <!-- parte para llenar el formulario de contacto -->
+        <section id="formulario">
+            <p class="titulos" id="tit-formulario">Encuentra la casa de tus sueños</p>
+
+            <p>Llena el formulario de Contacto y un asesor se pondrá en contacto a la brevedad</p>
+
+            <input type="submit" value="CONTÁCTANOS" id="boton-formulario">
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <a href="" class="nav">Nosostros</a>
+            <a href="" class="nav">Anuncios</a>
+            <a href="" class="nav">Blog</a>
+            <a href="" class="nav">Contacto</a>
+        </div>
+
+        <p> Dising by 2021 ©</p>
+    </footer>
+
+
+
+</body>
+</html>
